@@ -1,0 +1,76 @@
+<object-stream>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>1</factId>
+  <objectToString>com.sample.facts.Fact1@74fedcb8</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule1 [2, 1]</activationId>
+  <rule>rule1</rule>
+  <declarations>fact2=com.sample.facts.Fact2@c69d7ee(2); fact1=com.sample.facts.Fact1@74fedcb8(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>rule2 [2, 1]</activationId>
+  <rule>rule2</rule>
+  <declarations>fact2=com.sample.facts.Fact2@c69d7ee(2); fact1=com.sample.facts.Fact1@74fedcb8(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>2</factId>
+  <objectToString>com.sample.facts.Fact2@c69d7ee</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule2 [2, 1]</activationId>
+  <rule>rule2</rule>
+  <declarations>fact2=com.sample.facts.Fact2@c69d7ee(2); fact1=com.sample.facts.Fact1@74fedcb8(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule2 [2, 1]</activationId>
+  <rule>rule2</rule>
+  <declarations>fact2=com.sample.facts.Fact2@c69d7ee(2); fact1=com.sample.facts.Fact1@74fedcb8(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>rule1 [2, 1]</activationId>
+  <rule>rule1</rule>
+  <declarations>fact2=com.sample.facts.Fact2@c69d7ee(2); fact1=com.sample.facts.Fact1@74fedcb8(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>rule1 [2, 1]</activationId>
+  <rule>rule1</rule>
+  <declarations>fact2=com.sample.facts.Fact2@c69d7ee(2); fact1=com.sample.facts.Fact1@74fedcb8(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.RuleBaseLogEvent>
+  <type>18</type>
+  <packageName>com.sample.test1</packageName>
+</org.drools.audit.event.RuleBaseLogEvent>
+<org.drools.audit.event.RuleBaseLogEvent>
+  <type>22</type>
+  <packageName>com.sample.test1</packageName>
+  <ruleName>rule1</ruleName>
+</org.drools.audit.event.RuleBaseLogEvent>
+<org.drools.audit.event.RuleBaseLogEvent>
+  <type>23</type>
+  <packageName>com.sample.test1</packageName>
+  <ruleName>rule1</ruleName>
+</org.drools.audit.event.RuleBaseLogEvent>
+<org.drools.audit.event.RuleBaseLogEvent>
+  <type>22</type>
+  <packageName>com.sample.test1</packageName>
+  <ruleName>rule2</ruleName>
+</org.drools.audit.event.RuleBaseLogEvent>
+<org.drools.audit.event.RuleBaseLogEvent>
+  <type>23</type>
+  <packageName>com.sample.test1</packageName>
+  <ruleName>rule2</ruleName>
+</org.drools.audit.event.RuleBaseLogEvent>
+<org.drools.audit.event.RuleBaseLogEvent>
+  <type>19</type>
+  <packageName>com.sample.test1</packageName>
+</org.drools.audit.event.RuleBaseLogEvent>
+</object-stream>

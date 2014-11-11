@@ -1,0 +1,24 @@
+package com.sample.test1
+ 
+ import com.sample.facts.Fact1
+ import com.sample.facts.Fact2
+ 
+
+rule "rule1"
+    when
+        fact1 : Fact1()
+        fact2 : Fact2(id == fact1.id)  
+    then
+        System.out.println( "Rule 1 fired" );
+end
+
+rule "rule2"
+    when
+        fact1 : Fact1()
+        fact2 : Fact2(id == fact1.id)  
+    then
+        System.out.println( "Rule 2 fired" );
+end
+
+
+
